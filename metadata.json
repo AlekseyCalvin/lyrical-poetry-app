@@ -1,0 +1,5 @@
+{
+  "name": "lyrical-poetry-app",
+  "description": "Advanced multilingual poetry analyzer, scansion tool, and versification aid.",
+  "requestFramePermissions": []
+}
