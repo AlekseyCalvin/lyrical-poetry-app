@@ -1,0 +1,44 @@
+- Act - One of the main divisions of a play or opera <br>
+- Allegory - Figurative treatment of one subject under the guise of another
+- Alliteration - When the beginnings or middles of words sound alike - when either consonant or vowel sounds are repeated 
+- Allusion - A reference to something else, either direct or indirect 
+- Ambiguity - When something is unclear or indefinite
+- Anagram — A word or phrase formed by transposing the letters of another word; a game whereby anagrams are created 
+- Anaphora - The purposeful repetition of a word or phrase for the sake of style. For example, *"I have a dream that one day this nation will rise up...I have a dream that one day on the red hills of Georgia..." *
+- Anastrophe - Inversion of the usual syntactical order of words
+- Antagonist - Any force in a literary or dramatic work that strives to undermine the protagonist, or hero 
+- Aphorism - A pithy saying embodying a universal truth. For example, *"Absolute power corrupts absolutely."*
+- Archetype - A universal pattern or mold upon which people and characters are based; a prototype of character 
+- Aside - The breaking of the fourth wall and speaking directly to the audience; a temporary breaking of form 
+- Assonance - Alliteration involving vowels
+- Asyndeton - The omission of conjunctions for stylistic effect: *"...Sans teeth, sans eyes, sans taste, sans everything."*
+- Bildungsroman - Type of novel concerned with the edification of a young protagonist Caesura - A pause or break in poetry, sometimes marked with a line 
+- Canon - The entire body of work of a particular author, genre, field, nation, etc...
+- Canzone - A poem in which each word that appears at the end of a line in the first stanza appears again at the end of one of the lines of each of the following stanzas. Also a variety of lyric poetry that resembles the Madrigal 
+- Catharsis - Emotional purging, reliving the build-up of emotional tension
+- Chiasmus - A reversal of the syntax in two otherwise parallel phrases: *"He went to the country, to the town went she."*
+- Chorus - A lyric poem or ode that is sung by a group the refrain of a song; a group of characters that comment on the action 
+- Cinquain - A stanza of five lines. Also a short poem consisting of five, usually unrhymed lines, containing, respectively, two, four, six, eight, and two syllables.
+- Circumlocution - A roundabout or indirect way of speaking; the act of talking around something 
+- Cliché - A phrase or motif that is overly familiar and trite. Also a platitude or saying 
+- Colloquialism - Slang
+- Conflict - Disagreement, challenge, struggle or battle
+- Connotation - A secondary meaning in addition to a word's primary meaning - often connected to emotions and/or senses
+- Consonance - Alliteration involving consonants
+- Constructivism - Learning theory whereby students learn by doing as opposed to by receiving a didactic lecture. Also, an art movement whereby art exists not just for its own sake but for a higher social purpose 
+- Couplet - A pair of lines in poetry that work together and which usually, but not always, rhyme 
+- Criticism - The practice of analyzing, classifying, interpreting, or evaluating literary or other artistic works
+- Deconstructionism - The school of thought/theory that says that, among other things, meaning lies not in the actual text but in the individual's interpretation of the text - that there is no role for certainty, identity or truth in literary criticism 
+- Denotation - The literal and objective definition of a term, separate from a word's connotations, which are the ancillary definitions or the baggage that comes along for the ride.
+- Denouement - The resolution of a story
+- Deux ex machina - When a god-like force comes to rescue the protagonist or to otherwise resolve things. It is an arbitrary contrivance used to save the day
+- Dialect - A socially distinct variety of language, usually substandard 
+- Diction - The selection, placement and order of words in a literary text 
+- Didactic - Heavy-handed and instructive; preachy
+- Doggerel - Comic, burlesque, loose, crass
+- Doppelganger - Ghostly double that often haunts its Earthly counterpart
+- Dynamic - Of or pertaining to motion and force. Also, pertaining to the range of volume 
+- Dystopia - a society characterized by misery and squalor - the opposite of a utopia
+- Electra complex - The psychoanalytic theory that a female's psycho-sexual development involves a sexual attachment to her father, which is analogous to the Oedipus complex, which involves a boy's sexual attachment to his mother 
+- End-stopped line - Lines of poetry are end-stopped when they terminate with punctuation
+- Enjambment - Lines of poetry are considered enjambed when a single thought continues from one line to the next without punctuation

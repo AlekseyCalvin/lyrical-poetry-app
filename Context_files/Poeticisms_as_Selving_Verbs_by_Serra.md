@@ -1,0 +1,131 @@
+Richard Serra, "Verb List Compilation: Actions  Relate  Oneself"
+[1967-1968]
+
+ tension
+ gravity
+ entropy
+ nature
+ grouping
+ layering
+ felting
+ hole
+ waves
+ electromagnetic
+ inertia
+ ionization
+ polarization
+ refraction
+ tides
+ reflection
+ equilibrium
+ symmetry
+ friction
+ mapping
+ location
+ context
+ cabonization
+
+
+ roll
+ crease
+ fold
+time
+ store
+ bend
+ shorten
+ twist
+ dapple
+ crumple
+puncture
+ shave
+ tear
+poke
+ram
+ chip
+ split
+ cut
+ sever
+penetrate
+pierce
+ drop
+ remove
+ simplify
+ differ
+ disarrange
+ open
+ mix
+ splash
+ knot
+ spill
+ droop
+ flow
+ grasp
+ tighten
+ bundle
+ heap
+ gather
+ cover
+ wrap
+ dig
+ tie
+ bind
+ weave
+ join
+ match
+ laminate
+ bond
+ hinge
+ mark
+ expand
+ dilute
+ light
+ scatter
+ arrange
+ repair
+ discard
+ pair
+tensen
+layer
+ distribute
+ surfeit
+ compliment
+ enclose
+ surround
+ encircle
+ modulate
+ distill
+ stretch
+ bounce
+ erase
+ spray
+ systematize
+ refer
+ force
+ curve
+ lift
+ inlay
+ impress
+hurry
+wait
+bide
+bid
+ fire
+ flood
+ smear
+ rotate
+ swirl
+ support
+ hook
+ suspend
+splay
+procrastinate
+protract
+procrastinating
+procrastinated 
+ spread
+ hang
+ collect
+continue
+
+
+
