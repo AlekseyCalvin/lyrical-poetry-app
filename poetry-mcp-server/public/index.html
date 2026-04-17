@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Helper for Claude</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #faf6f1;
+            color: #4a3f35;
+            font-family: 'Lora', Georgia, serif;
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .sparkle {
+            font-size: 1.6rem;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 600;
+            color: #5b3a6b;
+            margin-bottom: 10px;
+            letter-spacing: -0.01em;
+        }
+
+        .tagline {
+            font-style: italic;
+            color: #8a7060;
+            font-size: 1.05rem;
+            margin-bottom: 36px;
+        }
+
+        .get-started {
+            background: white;
+            border: 1px solid #e8ddd3;
+            border-radius: 14px;
+            padding: 24px 28px;
+            text-align: left;
+            margin-bottom: 28px;
+            box-shadow: 0 2px 12px rgba(91, 58, 107, 0.06);
+        }
+
+        .get-started h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #5b3a6b;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .steps {
+            list-style: none;
+            counter-reset: step;
+        }
+
+        .steps li {
+            counter-increment: step;
+            position: relative;
+            padding-left: 34px;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+        }
+
+        .steps li:last-child {
+            margin-bottom: 0;
+        }
+
+        .steps li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 2px;
+            width: 24px;
+            height: 24px;
+            background: #f3ece4;
+            color: #5b3a6b;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .steps a {
+            color: #5b3a6b;
+            text-decoration: underline;
+            text-decoration-color: #d4bfdf;
+            text-underline-offset: 2px;
+        }
+
+        .steps a:hover {
+            text-decoration-color: #5b3a6b;
+        }
+
+        .step-standalone {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 16px;
+            font-size: 0.95rem;
+        }
+
+        .step-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            min-width: 24px;
+            background: #f3ece4;
+            color: #5b3a6b;
+            border-radius: 50%;
+            font-size: 0.8rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .url-box {
+            display: block;
+            background: #faf6f1;
+            border: 1px solid #e8ddd3;
+            border-radius: 8px;
+            padding: 12px;
+            margin: 1rem auto;
+            text-align: center;
+            max-width: 100%;
+        }
+
+        .url-box code {
+            display: block;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            color: #5b3a6b;
+            word-break: break-all;
+            margin-bottom: 8px;
+        }
+
+        .copy-btn {
+            background: #5b3a6b;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 14px;
+            font-size: 0.78rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .copy-btn:hover {
+            background: #6d4a7e;
+        }
+
+        .copy-btn.copied {
+            background: #6b8a5e;
+        }
+
+        .examples {
+            color: #8a7060;
+            font-size: 0.92rem;
+            margin-bottom: 32px;
+        }
+
+        .examples p {
+            margin-bottom: 6px;
+        }
+
+        .example-prompt {
+            font-style: italic;
+            color: #5b3a6b;
+        }
+
+        footer {
+            color: #bfada0;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 500px) {
+            body { padding: 30px 16px; }
+            h1 { font-size: 1.6rem; }
+            .get-started { padding: 20px; }
+            .url-box { margin: 1rem auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="sparkle">&#x2728;</span>
+        <h1>Poetry Helper for Claude</h1>
+        <p class="tagline">A little tool that helps Claude count your syllables,<br>find your rhymes, and perfect your verse.</p>
+
+        <div class="get-started">
+            <h2>Get Started</h2>
+            <ol class="steps">
+                <li>Open <a href="https://claude.ai">claude.ai</a> &rarr; Settings &rarr; Connectors</li>
+                <li>Click "Add custom connector"</li>
+                <li>Name it <strong>Poetry Helper</strong></li>
+                <li>Paste this URL:</li>
+            </ol>
+            <div class="url-box">
+                <code id="mcp-url">https://poetry-mcp-server.elliotplant.workers.dev/mcp</code>
+                <button class="copy-btn" id="copy-btn" onclick="copyUrl()">Copy</button>
+            </div>
+            <div class="step-standalone">
+                <span class="step-number">5</span>
+                <span>Start writing poetry together!</span>
+            </div>
+            <p style="text-align: center; color: #8a7060; font-size: 0.85rem; margin-top: 16px;">That's it! Claude now has access to your poetry tools.</p>
+        </div>
+
+        <div class="examples">
+            <p>Try asking Claude things like:</p>
+            <p class="example-prompt">"Help me write a love sonnet"</p>
+            <p class="example-prompt">"Does this haiku have the right rhythm?"</p>
+        </div>
+
+        <footer>made with ♥ by elliot and claude</footer>
+    </div>
+
+    <script>
+        function copyUrl() {
+            const url = document.getElementById('mcp-url').textContent;
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = document.getElementById('copy-btn');
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
